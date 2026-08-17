@@ -1,8 +1,7 @@
 export const siteConfig = {
   name: "Tondiki Andika Gurning",
   shortName: "Tondiki Andika",
-  // TODO(user): ganti dengan domain final setelah deploy dikonfirmasi.
-  siteUrl: "https://tondikiandika.vercel.app",
+  siteUrl: "https://tondikiandika.pages.dev",
   whatsappNumber: "6283897781157",
   email: "tondikiag30@gmail.com",
 };
