@@ -44,7 +44,7 @@ export const dictionary = {
       overlayPart2: "developer aplikasi website & mobile",
       subheadline:
         "Butuh tampil profesional di internet? Saya bantu dari landing page siap pakai yang terjangkau sampai sistem yang lebih besar saat bisnismu tumbuh.",
-      ctaPrimary: "Lihat Demo Landing Page",
+      ctaPrimary: "Lihat Demo",
     },
     services: {
       eyebrow: "Layanan",
@@ -118,9 +118,8 @@ export const dictionary = {
     },
     demos: {
       eyebrow: "Portfolio",
-      title: "Hasil nyata yang bisa kamu buka langsung.",
-      subtitle:
-        "Setiap contoh adalah website asli yang berjalan. Buka, rasakan, lalu kita buatkan yang sejenis untuk usahamu.",
+      title: "Demo aplikasi yang bisa kamu buka langsung.",
+      subtitle: "Buka, rasakan, lalu kita buatkan yang sejenis untuk usahamu.",
       visitLabel: "Kunjungi Demo",
       askLabel: "Tanya demo ini",
       previousLabel: "Gambar sebelumnya",
@@ -245,7 +244,7 @@ export const dictionary = {
         },
         {
           id: "adira",
-          title: "Modul Car Credit & Umrah",
+          title: "Platform Pembiayaan",
           org: "PT Adira Dinamika Multi Finance Tbk",
           description: "Frontend web/mobile yang dilayani 5.000+ pengguna.",
         },
@@ -290,7 +289,7 @@ export const dictionary = {
           org: "PT Adira Dinamika Multi Finance Tbk",
           period: "Mar 2025 — Jun 2025",
           points: [
-            "Modul Car Credit & Umrah web/mobile — 5.000+ pengguna",
+            "Platform Pembiayaan web/mobile — 5.000+ pengguna",
             "Call Management System native + mentoring junior",
           ] as const,
         },
@@ -686,7 +685,7 @@ export const dictionary = {
         },
         {
           id: "adira",
-          title: "Car Credit & Umrah Modules",
+          title: "Financing Platform",
           org: "PT Adira Dinamika Multi Finance Tbk",
           description: "Web/mobile frontend serving 5,000+ users.",
         },
