@@ -6,11 +6,11 @@ import {
   CalendarDays,
   Globe2,
   LayoutTemplate,
-  MessageCircle,
   ShoppingCart,
   Smartphone,
   Sparkles,
 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/whatsapp-icon";
 import type { LucideIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
@@ -189,7 +189,7 @@ function ServiceCard({
         transition={{ type: "spring", stiffness: 260, damping: 20 }}
         className="mt-4 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-lg border border-border px-4 text-sm font-semibold text-cta focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring cursor-pointer"
       >
-        <MessageCircle className="size-4" aria-hidden="true" />
+        <WhatsAppIcon className="size-4" aria-hidden="true" />
         {ctaLabel}
         <ArrowUpRight className="size-4" aria-hidden="true" />
       </motion.a>
@@ -271,7 +271,7 @@ export function Services() {
                   transition={{ type: "spring", stiffness: 260, damping: 20 }}
                   className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-lg bg-cta px-4 text-sm font-semibold text-cta-foreground transition-opacity duration-200 hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring cursor-pointer sm:w-auto"
                 >
-                  <MessageCircle className="size-4" aria-hidden="true" />
+                  <WhatsAppIcon className="size-4" aria-hidden="true" />
                   {t.services.launchPromoCta}
                 </motion.a>
               </div>

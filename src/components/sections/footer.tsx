@@ -49,7 +49,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60">
         <p className="mx-auto max-w-6xl px-4 py-4 text-xs text-muted-foreground sm:px-6">
-          © {year} {siteConfig.name}. {t.footer.builtWith}
+          © {year} {siteConfig.name}.
         </p>
       </div>
     </motion.footer>

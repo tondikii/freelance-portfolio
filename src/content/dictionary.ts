@@ -7,7 +7,7 @@ export const dictionary = {
       tagline: "Web & Mobile",
       location: "Jakarta Selatan, Indonesia",
       serviceArea: "Remote",
-      responseTime: "Balasan cepat di jam kerja (09.00–18.00 WIB)",
+      responseTime: "Balasan cepat di jam kerja (09.00–21.00 WIB)",
     },
     nav: {
       items: [
@@ -435,7 +435,6 @@ export const dictionary = {
       } as const,
     },
     footer: {
-      builtWith: "Dibangun dengan Next.js.",
       portfolioLink: "Portfolio",
     },
   },
@@ -877,7 +876,6 @@ export const dictionary = {
       } as const,
     },
     footer: {
-      builtWith: "Built with Next.js.",
       portfolioLink: "Portfolio",
     },
   },

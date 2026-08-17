@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
+import { WhatsAppIcon } from "@/components/whatsapp-icon";
 import { motion, useReducedMotion } from "motion/react";
 import { HERO_PHOTO_SRC, siteConfig } from "@/content/site";
 import { waLink } from "@/lib/wa";
@@ -95,10 +96,10 @@ export function Hero() {
               aria-label="WhatsApp"
               className="flex size-10 items-center justify-center rounded-full transition-colors hover:bg-primary-foreground/10 hover:text-primary-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground cursor-pointer"
             >
-              <MessageCircle className="size-5" aria-hidden="true" />
+              <WhatsAppIcon className="size-5" aria-hidden="true" />
             </a>
             <a
-              href={`mailto:${siteConfig.email}`}
+              href={`https://mail.google.com/mail/?view=cm&to=${siteConfig.email}`}
               aria-label={siteConfig.email}
               className="flex size-10 items-center justify-center rounded-full transition-colors hover:bg-primary-foreground/10 hover:text-primary-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground cursor-pointer"
             >

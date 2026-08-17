@@ -1,18 +1,20 @@
 "use client";
 
-import { Clock, Globe, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Clock, Globe, Mail, MapPin } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { siteConfig } from "@/content/site";
 import { waDisplayNumber, waLink } from "@/lib/wa";
 import { useI18n } from "@/lib/i18n";
 import { FadeIn } from "@/components/motion";
+import { WhatsAppIcon } from "@/components/whatsapp-icon";
 
 export function Contact() {
   const { t } = useI18n();
   const prefersReducedMotion = useReducedMotion();
 
+
   const infoItems = [
-    { icon: MessageCircle, label: t.contact.infoLabels.whatsapp, value: waDisplayNumber },
+    { icon: WhatsAppIcon, label: t.contact.infoLabels.whatsapp, value: waDisplayNumber },
     { icon: Mail, label: t.contact.infoLabels.email, value: siteConfig.email },
     { icon: MapPin, label: t.contact.infoLabels.location, value: t.site.location },
     { icon: Globe, label: t.contact.infoLabels.area, value: t.site.serviceArea },
@@ -43,11 +45,13 @@ export function Contact() {
                 transition={{ type: "spring", stiffness: 260, damping: 20 }}
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-cta px-6 text-sm font-semibold text-cta-foreground transition-all duration-200 hover:-translate-y-px hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring cursor-pointer"
               >
-                <MessageCircle className="size-4" aria-hidden="true" />
+                <WhatsAppIcon className="size-4" aria-hidden="true" />
                 {t.contact.ctaWa}
               </motion.a>
               <a
-                href={`mailto:${siteConfig.email}`}
+                href={`https://mail.google.com/mail/?view=cm&to=${siteConfig.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-lg border-[1.5px] border-primary-foreground/40 px-6 text-sm font-semibold text-primary-foreground transition-colors duration-200 hover:bg-primary-foreground/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring cursor-pointer"
               >
                 <Mail className="size-4" aria-hidden="true" />

@@ -1,7 +1,8 @@
 "use client";
 
-import { ArrowUpRight, MessageCircle } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { waLink } from "@/lib/wa";
+import { WhatsAppIcon } from "@/components/whatsapp-icon";
 import { useI18n } from "@/lib/i18n";
 import { FadeIn, StaggerGroup, StaggerItem } from "@/components/motion";
 import { DemoGallery } from "./demo-gallery";
@@ -57,7 +58,7 @@ export function DemoShowcase() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
                     >
-                      <MessageCircle className="size-3.5" aria-hidden="true" />
+                      <WhatsAppIcon className="size-3.5" aria-hidden="true" />
                       {t.demos.askLabel}
                     </a>
                   </div>
@@ -85,7 +86,7 @@ export function DemoShowcase() {
             rel="noopener noreferrer"
             className="inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-white px-6 text-sm font-semibold text-primary transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white cursor-pointer"
           >
-            <MessageCircle className="size-4" aria-hidden="true" />
+            <WhatsAppIcon className="size-4" aria-hidden="true" />
             {t.demos.ctaBand.ctaLabel}
           </a>
         </FadeIn>
