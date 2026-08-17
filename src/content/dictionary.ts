@@ -270,7 +270,7 @@ export const dictionary = {
           period: "Nov 2025 — Sekarang",
           points: [
             "Infrastruktur testing dari nol — 80% coverage",
-            "Otomasi Jest, Playwright, Maestro — QA turun 60%",
+            "Otomasi testing — QA turun 60%",
           ] as const,
         },
         {
@@ -323,16 +323,10 @@ export const dictionary = {
           title: "Frontend",
           items: [
             "React",
-            "React Native",
-            "Vue",
             "Next.js",
-            "Nuxt",
-            "Flutter",
             "Tailwind CSS",
-            "Bootstrap",
-            "MUI",
-            "Ant Design",
-            "Vuetify",
+            "React Native",
+            "Flutter",
           ] as const,
         },
         {
@@ -341,12 +335,8 @@ export const dictionary = {
           items: [
             "Node.js",
             "Express.js",
-            "Spring Boot",
-            "Gin",
             "PostgreSQL",
             "MongoDB",
-            "Redis",
-            "WebSockets",
           ] as const,
         },
         {
@@ -354,24 +344,9 @@ export const dictionary = {
           title: "Deployment & Tools",
           items: [
             "Docker",
-            "Firebase",
             "Vercel",
-            "Heroku",
-            "Supabase",
-            "Railway",
-            "CI/CD",
+            "Firebase",
             "Git",
-          ] as const,
-        },
-        {
-          id: "testing",
-          title: "Testing",
-          items: [
-            "Jest",
-            "Testing Library",
-            "Cypress",
-            "Playwright",
-            "Maestro",
           ] as const,
         },
         {
@@ -380,10 +355,6 @@ export const dictionary = {
           items: [
             "JavaScript",
             "TypeScript",
-            "Java",
-            "Kotlin",
-            "Go",
-            "Dart",
             "HTML5",
             "CSS3",
           ] as const,
@@ -710,7 +681,7 @@ export const dictionary = {
           period: "Nov 2025 — Present",
           points: [
             "Testing infrastructure from scratch — 80% coverage",
-            "Jest, Playwright, Maestro automation — QA time down 60%",
+            "Automated testing — QA time down 60%",
           ] as const,
         },
         {
@@ -763,16 +734,10 @@ export const dictionary = {
           title: "Frontend",
           items: [
             "React",
-            "React Native",
-            "Vue",
             "Next.js",
-            "Nuxt",
-            "Flutter",
             "Tailwind CSS",
-            "Bootstrap",
-            "MUI",
-            "Ant Design",
-            "Vuetify",
+            "React Native",
+            "Flutter",
           ] as const,
         },
         {
@@ -781,12 +746,8 @@ export const dictionary = {
           items: [
             "Node.js",
             "Express.js",
-            "Spring Boot",
-            "Gin",
             "PostgreSQL",
             "MongoDB",
-            "Redis",
-            "WebSockets",
           ] as const,
         },
         {
@@ -794,24 +755,9 @@ export const dictionary = {
           title: "Deployment & Tools",
           items: [
             "Docker",
-            "Firebase",
             "Vercel",
-            "Heroku",
-            "Supabase",
-            "Railway",
-            "CI/CD",
+            "Firebase",
             "Git",
-          ] as const,
-        },
-        {
-          id: "testing",
-          title: "Testing",
-          items: [
-            "Jest",
-            "Testing Library",
-            "Cypress",
-            "Playwright",
-            "Maestro",
           ] as const,
         },
         {
@@ -820,10 +766,6 @@ export const dictionary = {
           items: [
             "JavaScript",
             "TypeScript",
-            "Java",
-            "Kotlin",
-            "Go",
-            "Dart",
             "HTML5",
             "CSS3",
           ] as const,
