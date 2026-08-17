@@ -45,16 +45,6 @@ export function Footer() {
               {siteConfig.email}
             </a>
           </li>
-          <li>
-            <a
-              href={siteConfig.existingPortfolio}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex h-11 items-center text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
-            >
-              {t.footer.portfolioLink}
-            </a>
-          </li>
         </ul>
       </div>
       <div className="border-t border-border/60">
