@@ -68,15 +68,15 @@ Logo/nama "Tondiki Andika" • anchor links (Demo, Layanan, Tentang, Kontak) •
 - Diakhiri CTA band: "Suka salah satunya? Ini bisa jadi website bisnismu." → WhatsApp.
 
 ### 4.4 Layanan & Paket Starter
-- Kartu paket utama: **Landing Page Starter** (dari demo pilihan; harga = placeholder `[HARGA_STARTER]` — diisi user nanti; jangan mengarang angka).
+- Kartu layanan utama: **Landing Page** (dari demo pilihan; harga awal bersifat provisional dan perlu dikonfirmasi user sebelum publish).
 - Daftar apa yang didapat (kustomisasi warna/konten/brand, domain & deploy assist, responsive, dsb).
 - Layanan lanjutan (framed sebagai roadmap): booking system, katalog + pembayaran, POS — status "segera / on request".
 
 ### 4.5 Roadmap Pertumbuhan ("Tumbuh Bersama")
-Visual timeline: Landing Page → Website + Fitur (booking/katalog) → Sistem Bisnis (POS, dashboard). Komunikasikan: mulai kecil bersama saya, scale saat bisnis tumbuh. Ini pembeda dari jasa "tempelan template" lain.
+Roadmap ditunda dari halaman aktif untuk sekarang. Narasi pertumbuhan tetap disampaikan secara ringkas melalui layanan custom, tanpa section roadmap terpisah.
 
 ### 4.6 Capabilities / Tech Stack
-Dua sub-grup: "untuk client" (bahasa awam: website cepat, aman, mudah dikelola, mobile-friendly) dan "detail teknis" (chip kecil: React, Next.js, React Native, Flutter, Node.js, Spring Boot, PostgreSQL, MongoDB, Docker, CI/CD, dst — dari CV).
+Section capabilities terpisah ditunda. Tech stack tetap tampil ringkas di dalam section Tentang, berdampingan dengan timeline pengalaman.
 
 ### 4.7 Tentang Saya (#tentang)
 - Foto placeholder (lihat §7) + narasi profesional dari CV: fullstack 4+ tahun, bridge UI/UX (Figma) ↔ development, clean architecture, minimal design.
@@ -154,7 +154,7 @@ Angka trust yang boleh dipakai: **4+ tahun pengalaman**, **5.000+ pengguna dilay
 ## 9. Out of Scope (Fase Ini)
 
 - CMS / halaman blog.
-- Multi-bahasa (EN) — struktur konten terpusat agar mudah ditambah nanti.
+- Multi-bahasa berbasis URL — tidak dipakai; toggle ID/EN state-based sudah aktif untuk portfolio satu halaman.
 - Testimonial asli (belum ada data) — slot placeholder visual boleh, teks fiktif TIDAK BOLEH.
 - Integrasi pembayaran online.
 - Custom favicon/logo mark kompleks — gunakan wordmark sederhana dulu.
